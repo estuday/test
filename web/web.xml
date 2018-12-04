@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+    <!--配置serverlet-->
+    <servlet>
+        <!--给serverlet起名-->
+        <servlet-name>StudentList</servlet-name>
+        <!--配置这个名字的serverlet地址-->
+        <servlet-class>com.serverlet.StudentListServerlet</servlet-class>
+    </servlet>
+
+    <!--配置serverlet映射-->
+    <servlet-mapping>
+        <servlet-name>StudentList</servlet-name>
+        <!--配置用来访问的地址-->
+        <url-pattern>/stuList</url-pattern>
+    </servlet-mapping>
